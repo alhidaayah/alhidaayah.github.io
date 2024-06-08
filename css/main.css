@@ -1052,7 +1052,7 @@ th {
       .popular-course-area {
         margin-bottom: 30px; }
 	  .popular-course-area .owl-controls {
-		right: 36%; }}
+		right: 35%; }}
 .popular-course-area .owl-nav {
   display: -ms-flexbox;
   display: flex; }
@@ -1155,7 +1155,7 @@ th {
     @media (max-width: 991px) {
 	  .video-area .owl-controls {
 		position: absolute;
-		right: 37%; }}
+		right: 35%; }}
     .video-area .owl-controls .owl-nav {
       display: -ms-flexbox;
       display: flex; }
