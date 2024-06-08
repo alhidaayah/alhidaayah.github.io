@@ -3089,8 +3089,13 @@ h6 {
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
       color: #828bb2; }
-      .footer-area .single-footer-widget ul li a:hover {
-        color: #fff; }
+    .footer-area .single-footer-widget ul li a:hover {
+      color: #fff; }
+	.footer-area .single-footer-widget .center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
   .footer-area .single-footer-widget .form-wrap {
     margin-top: 25px; }
   .footer-area .single-footer-widget input {
