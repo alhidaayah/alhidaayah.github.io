@@ -1048,9 +1048,7 @@ th {
   position: absolute;
   bottom: -50px;
   right: 45%; }
-  @media (max-width: 991px) {
-    .popular-course-area .owl-controls {
-      display: none; } }
+
 .popular-course-area .owl-nav {
   display: -ms-flexbox;
   display: flex; }
@@ -1150,9 +1148,7 @@ th {
     .video-area .owl-controls {
     position: relative;
     bottom: -100px; }
-    @media (max-width: 991px) {
-      .video-area .owl-controls {
-        display: none; } }
+
     .video-area .owl-controls .owl-nav {
       display: -ms-flexbox;
       display: flex; }
@@ -1234,9 +1230,7 @@ th {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%); }
-    @media (max-width: 991px) {
-      .testimonials-area .owl-controls {
-        display: none; } }
+
     .testimonials-area .owl-controls .owl-nav {
       display: -ms-flexbox;
       display: flex; }
