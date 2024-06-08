@@ -1050,7 +1050,9 @@ th {
   right: 45%; }
     @media (max-width: 991px) {
       .popular-course-area {
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+	  .popular-course-area .owl-controls {
+		right: 36%; }}
 .popular-course-area .owl-nav {
   display: -ms-flexbox;
   display: flex; }
@@ -1149,8 +1151,11 @@ th {
   }
     .video-area .owl-controls {
     position: relative;
-    bottom: -50px; }
-
+    bottom: -70px; }
+    @media (max-width: 991px) {
+	  .video-area .owl-controls {
+		position: absolute;
+		right: 37%; }}
     .video-area .owl-controls .owl-nav {
       display: -ms-flexbox;
       display: flex; }
