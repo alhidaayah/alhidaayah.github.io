@@ -1144,7 +1144,10 @@ th {
     @media (max-width: 991px) {
       .video-area .video-left {
         padding-bottom: 0px; } }
-  .video-area .owl-controls {
+  .video-area .section-title ul {
+	  padding-left:40px;
+  }
+    .video-area .owl-controls {
     position: relative;
     bottom: -100px; }
     @media (max-width: 991px) {
