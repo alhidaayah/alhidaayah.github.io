@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ehwnfd');
+  src:  url('../fonts/icomoon.eot?ehwnfd#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ehwnfd') format('truetype'),
+    url('../fonts/icomoon.woff?ehwnfd') format('woff'),
+    url('../fonts/icomoon.svg?ehwnfd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user-graduate:before {
+  content: "\e900";
+}
+.icon-star-and-crescent:before {
+  content: "\e901";
+}
+.icon-building:before {
+  content: "\e902";
+}
+.icon-flask:before {
+  content: "\e903";
+}
+.icon-mosque:before {
+  content: "\e904";
+}
+.icon-quran:before {
+  content: "\e905";
+}
