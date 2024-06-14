@@ -872,7 +872,8 @@ th {
   background: url(../img/home-banner-bg.png) no-repeat;
   background-size: cover;
   background-position: center center;
-  max-height: 1200px; }
+  max-height: 1200px; 
+  min-height:550px !important;}
   @media (min-width: 1921px) {
     .home-banner-area .fullscreen {
       align-items: start !important;
