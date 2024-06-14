@@ -645,13 +645,13 @@ th {
     .section-title {
       padding-bottom: 40px; } }
   .section-title h2 {
-    font-size: 42px;
+    font-size: 30px;
     color: #222;
-    margin-bottom: 20px; }
-    @media (max-width: 768px) {
+    margin-bottom: 15px; }
+    @media (min-width: 414px) {
       .section-title h2 {
-        font-size: 30px;
-        margin-bottom: 15px; } }
+        font-size: 42px;
+        margin-bottom: 20px; } }
   .section-title p {
     margin-bottom: 0;
     max-width: 620px; }
@@ -1151,11 +1151,12 @@ th {
   }
     .video-area .owl-controls {
     position: relative;
-    bottom: -70px; }
+    bottom: -70px; 
+	right: -40%;}
     @media (max-width: 991px) {
 	  .video-area .owl-controls {
 		position: absolute;
-		right: 35%; }}
+		right: 40%; }}
     .video-area .owl-controls .owl-nav {
       display: -ms-flexbox;
       display: flex; }
@@ -1235,6 +1236,13 @@ th {
 
 .testimonials-area {
   position: relative; }
+  
+  @media (min-width: 768px) and (max-width: 991px){
+	  .testimonials-area .principals img {
+		  width: 70%;
+		  margin:auto;
+	  }
+  }
   .testimonials-area .owl-controls {
     position: absolute;
     bottom: 10px;
@@ -1244,6 +1252,12 @@ th {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%); }
+
+  @media (max-width: 991px){
+	  .testimonials-area .owl-controls {
+		  bottom: -40px;
+	  }
+  }
 
     .testimonials-area .owl-controls .owl-nav {
       display: -ms-flexbox;
@@ -1279,7 +1293,7 @@ th {
         color: #ffc000;
         font-size: 14px; }
   .testi-item .text p {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0;
     line-height: 32px;
     font-style: italic; }
@@ -1339,7 +1353,7 @@ th {
       font-size: 12px;
       color: #fff;
       line-height: 50px;
-      padding: 0 104px;
+      padding: 0 75px;
       border: 0px;
       font-weight: 700;
       margin-top: 20px;
