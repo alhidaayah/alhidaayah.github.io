@@ -8,6 +8,7 @@ $(function() {
 		fitscreen = window_height - header_height;
 
 	$('.fullscreen').css('height', window_height);
+	$('.fullscreen').css('min-height', '450px');
 	$('.fitscreen').css('height', fitscreen);
 
 	//------- Header Scroll Class  js --------//
