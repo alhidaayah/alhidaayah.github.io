@@ -1149,10 +1149,12 @@ th {
   .video-area .section-title ul {
 	  padding-left:40px;
   }
-    .video-area .owl-controls {
-    position: relative;
+  .video-area .owl-controls {
+	position: relative;
     bottom: -70px; 
-	right: -40%;}
+	right: -40%;
+	width: 125px;
+  }
     @media (max-width: 991px) {
 	  .video-area .owl-controls {
 		position: absolute;
