@@ -1323,6 +1323,13 @@ th {
     @media (max-width: 991px) {
       .registration-area .course-form-section {
         margin-top: 50px; } }
+	
+	@media (min-width: 768px) and (max-width: 991px) {
+	  .registration-area .form-container {
+		  margin: auto;
+	  }
+    }
+	
     @media (max-width: 575px) {
       .registration-area .course-form-section {
         padding: 60px 0px; } }
