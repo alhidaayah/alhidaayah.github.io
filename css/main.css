@@ -1153,13 +1153,10 @@ th {
   .video-area .owl-controls {
 	position: relative;
     bottom: -70px; 
-	right: -40%;
-	width: 125px;
+	width: 120px;
+	margin:auto;
   }
-    @media (max-width: 991px) {
-	  .video-area .owl-controls {
-		position: absolute;
-		right: 40%; }}
+
     .video-area .owl-controls .owl-nav {
       display: -ms-flexbox;
       display: flex; }
