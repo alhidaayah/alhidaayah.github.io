@@ -883,6 +883,10 @@ th {
     .home-banner-area .fullscreen {
       height: 700px !important; } }
 
+  .home-banner-left{
+	  text-shadow: 2px 2px 5px black;
+  }
+
 @media (max-width: 768px) {
   .home-banner-left {
     text-align: center; } }
