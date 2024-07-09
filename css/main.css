@@ -741,6 +741,8 @@ th {
   width: 100%;
   z-index: 9; }
 
+.navbar {
+  padding: 25px 15px; }
   @media (max-width: 992px) {
     .navbar .navbar-collapse {
       background: #222222;
@@ -816,6 +818,11 @@ th {
   left: 0;
   width: 100%;
   background: #222222; }
+  
+.header-scrolled .navbar {
+		padding-top:8px!important;
+		padding-bottom:8px!important;
+}
 
 #search-input-box {
   position: fixed;
